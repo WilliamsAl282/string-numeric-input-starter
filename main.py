@@ -40,7 +40,8 @@ print(f'You have {str(family)} family members')
 height = float(input('What is your height in inches\n'))
 CONVERSION_FACTOR = 2.54
 height_cent = CONVERSION_FACTOR*height
-print(f'Your height in inches is ' + {str(height)} + 'and your height in centimeters is' + {str(height_cent)})
+print('Your height in inches is ' + str(height) + " " + 'and your height in centimeters is' + " " +str(height_cent))
+print('Your height in inches is' (height) 'and your height in centimeters is' (height_cent))
 
 
 
